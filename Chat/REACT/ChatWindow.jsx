@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Message from "./Message";
 import PropTypes from "prop-types";
-import debug from "sabio-debug";
 import "./messages.css";
 import { Col } from "react-bootstrap";
 import userService from "services/userService";
