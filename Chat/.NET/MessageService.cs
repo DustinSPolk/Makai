@@ -1,18 +1,3 @@
-using Microsoft.AspNetCore.SignalR;
-using Sabio.Data;
-using Sabio.Data.Providers;
-using Sabio.Models;
-using Sabio.Models.Domain.Messages;
-using Sabio.Models.Requests.Messages;
-using Sabio.Services.Interfaces;
-using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
-using System.Threading.Tasks;
-
-namespace Sabio.Services
-{
     public class MessageService : IMessageService
     {
         IDataProvider _data = null;
@@ -299,4 +284,3 @@ namespace Sabio.Services
         }
         #endregion
     }
-}
