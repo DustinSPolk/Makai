@@ -1,12 +1,3 @@
-using Sabio.Models;
-using Sabio.Models.Domain.Messages;
-using Sabio.Models.Requests.Messages;
-using System.Collections.Generic;
-using System.Data;
-using System.Threading.Tasks;
-
-namespace Sabio.Services.Interfaces
-{
     public interface IMessageService
     {
         int Add(MessageAddRequest model, int userId);
@@ -21,4 +12,3 @@ namespace Sabio.Services.Interfaces
         List<MessageDetails> GetByUsers(int firstUserId, int secondUserId);
         List<UniqueChatContact> GetUniqueByUserId(int userId);
     }
-}
