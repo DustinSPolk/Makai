@@ -5,7 +5,6 @@ import MessageInput from "./MessageInput";
 import ChatWindow from "./ChatWindow";
 import { HubConnectionBuilder } from "@microsoft/signalr";
 import { API_HOST_PREFIX } from "../../services/serviceHelpers";
-import debug from "sabio-debug";
 import "./messages.css";
 import messageService from "services/messageService";
 import PropTypes from "prop-types";
