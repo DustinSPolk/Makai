@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import debug from "sabio-debug";
 import "./messages.css";
 import { formatTime } from "../../utils/dateFormater";
 import { Row } from "react-bootstrap";
