@@ -1,11 +1,3 @@
-using Microsoft.AspNetCore.SignalR;
-using Sabio.Services.Interfaces;
-using Sabio.Services;
-using System.Threading.Tasks;
-
-
-namespace Sabio.Web.Api.Hubs
-{
     public class ChatHub : Hub<IChatClient>
     {
         private IMessageService _messageService = null;
@@ -25,5 +17,3 @@ namespace Sabio.Web.Api.Hubs
         }
 
     }
-
-}
