@@ -1,22 +1,3 @@
-using Amazon.S3.Model;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.SignalR;
-using Microsoft.Build.Utilities;
-using Microsoft.Extensions.Logging;
-using Sabio.Models;
-using Sabio.Models.Domain.Messages;
-using Sabio.Models.Requests.Messages;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Api.Hubs;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
-using sib_api_v3_sdk.Model;
-using System;
-using System.Collections.Generic;
-
-namespace Sabio.Web.Api.Controllers
-{
     [Route("api/messages")]
     [ApiController]
     public class MessageApiController : BaseApiController
@@ -271,4 +252,3 @@ namespace Sabio.Web.Api.Controllers
         }
         #endregion
     }
-}
