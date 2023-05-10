@@ -9,7 +9,6 @@ import {
   Popover,
 } from "react-bootstrap";
 import PropTypes from "prop-types";
-import debug from "sabio-debug";
 import ThreadCard from "./ThreadCard";
 import { Formik, Form as FormikForm, Field } from "formik";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
