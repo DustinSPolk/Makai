@@ -1,6 +1,5 @@
 import React from "react";
 import PropTypes from "prop-types";
-import debug from "sabio-debug";
 import { Card, Col, Row } from "react-bootstrap";
 
 const _logger = debug.extend("ContactCard");
