@@ -1,5 +1,4 @@
 import React from "react";
-import debug from "sabio-debug";
 import Toastify from "toastify-js";
 import "toastify-js/src/toastify.css";
 import { Formik, Form as FormikForm, Field } from "formik";
